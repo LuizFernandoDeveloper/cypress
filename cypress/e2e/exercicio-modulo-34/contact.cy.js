@@ -29,5 +29,4 @@ describe('Teste para de uma aplicaçã', () => {
     it('Teste para deletar contatos.', () => {
         cy.get('.sc-iAEyYk').children().last().find(' .delete').click()
     })
-
 })
